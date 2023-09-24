@@ -27,4 +27,9 @@ public class HelloSwingGUI {
 
         frame.setVisible(true);
     }
+    //new fuc
+      private static void sayHello() {
+        JOptionPane.showMessageDialog(null, "Custom Message: Hello, Swing!");
+    }
+
 }
